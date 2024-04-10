@@ -36,6 +36,6 @@
         "host": "local_system",
         "target": "local_system",
         "cache_dir": "cache",
-        "output_dir": "textxyz"
+        "output_dir": "example-models/microsoft/phi2-cpu-int4"
     }
 }
