@@ -27,7 +27,8 @@
         "genai_exporter": {
             "type": "GenAIModelExporter",
             "config": {
-                "precision": "int4"
+                "precision": "int4",
+                "execution-provider": "cuda" 
             }
         }
     },
@@ -36,6 +37,6 @@
         "host": "local_system",
         "target": "local_system",
         "cache_dir": "cache",
-        "output_dir": "example-models/microsoft/phi-2/cpu/int4"
+        "output_dir": "example-models/microsoft/phi-2/cuda/int4"
     }
 }
