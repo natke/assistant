@@ -35,6 +35,6 @@
         "host": "local_system",
         "target": "local_system",
         "cache_dir": "cache",
-        "output_dir": "phi-2/cpu/int4"
+        "output_dir": "example-models/phi-2/cpu/int4"
     }
 }
